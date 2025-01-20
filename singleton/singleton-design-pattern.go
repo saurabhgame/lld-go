@@ -39,6 +39,7 @@ func (l *Logger) ShowLogs() {
 
 func main() {
 	// Get the singleton instance
+
 	logger1 := GetInstance()
 	logger1.LogMessage("First message")
 	logger1.LogMessage("Second message")
